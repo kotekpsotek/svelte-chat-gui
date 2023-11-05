@@ -123,6 +123,15 @@ export const load = () => {
 
 <h5>Congrats. You have got configured basically your <u><b>@svelte-chat/gui</b></u></h5>
 
+## Recomendations:
+1. When you would like to have fittest apperance experiences you should setup such style for app e.g: in app.html head scope
+```CSS
+    * {
+        margin: 0px;
+        padding: 0px
+    }
+```
+
 ## Contribution:
 **You feel will to help in solution evolution.** Don't be shy and pull issue with demand like: I would like take the participation in evolution because ...[cause]
 
