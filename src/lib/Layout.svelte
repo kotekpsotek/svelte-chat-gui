@@ -293,7 +293,7 @@
 {/if}
 
 <style>
-    @import url("./styles.css");
+    @import url("./client/styles.css");
     
     * {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
