@@ -70,7 +70,7 @@ $ npm i @svelte-chat/gui
 </script>
 
 <!-- Other stuff will be load here -->
-</slot>
+<slot/>
 
 <SvelteChatButton/>
 ```
@@ -81,23 +81,21 @@ $ npm i @svelte-chat/gui
 > - Remember that: Each example from **1** point can be utilized into any server side SvelteKit load spot file like: **+layout.server.ts** located in scope where 'SvelteChatButton' is used
 - When you just made **+layout.server.ts**/**+page.server.ts** file
 ```TypeScript
-import { svelteLoadLayout } from "@svelte-chat/gui";
+import { loadLayoutServer } from "@svelte-chat/gui";
 
 // This load automatically
-export const load = svelteLoadLayout;
+export const load = loadLayoutServer;
 ```
 - When you already have **+layout.server.ts**/**+page.server.ts** file
 ```Typescript
-import { svelteLoadLayout } from "@svelte-chat/gui"
-
-import { svelteLoadLayout } from "@svelte-chat/gui";
+import { loadLayoutServer } from "@svelte-chat/gui"
 
 // This load autmoatically
 export const load = () => {
     const math = 1 * 1 * 0;
 
     return {
-        ...svelteLoadLayout()
+        ...loadLayoutServer()
         math,
     }
 }

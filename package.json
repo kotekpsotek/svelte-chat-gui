@@ -1,6 +1,6 @@
 {
 	"name": "@svelte-chat/gui",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -41,7 +41,7 @@
 	"type": "module",
 	"dependencies": {
 		"@svelte-chat/gui": "^0.0.3",
-		"@svelte-chat/utils": "^0.0.1",
+		"@svelte-chat/utils": "^0.0.2",
 		"carbon-icons-svelte": "^12.3.0",
 		"js-cookie": "^3.0.5",
 		"socket.io-client": "^4.7.2"
