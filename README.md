@@ -5,7 +5,7 @@ The overlay of complex chat solution for modern applications.
 Svelte-Chat is complex chat solution for **SvelteKit applications** which offers your clients top-level chat experiences and full power to administrate for your management team
 
 ## Swift description of this
-This one is the overlay which supplies to your ***svelte-chat*** app the GUI experiences.
+This one is the overlay which supplies to your ***svelte-chat*** app the GUI experiences. [**full documentation**](https://kotekpsotek.github.io/svelte-chat-docs/)
 
 ## Installation (as always - for npm)
 ```bash
